@@ -1,8 +1,3 @@
-# Static list
-Statically defined lists which may contain mixed type data and may be iterated (yielding &dyn Trait refs)
-
-# Basic usage example
-```rust
 use static_list::*;
 use std::marker::PhantomData;
 use std::fmt::Debug;
@@ -33,7 +28,3 @@ fn main() {
 
     println!("{:?}", demo.t.iter().collect::<Vec<_>>());
 }
-
-```
-
-nightly required because used `std::marker::Unsize` from `unsize` feature

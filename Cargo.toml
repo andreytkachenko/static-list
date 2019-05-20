@@ -1,0 +1,9 @@
+[package]
+name = "static-list"
+version = "0.1.0"
+authors = ["Andrey Tkachenko <andreytkachenko64@gmail.com>"]
+edition = "2018"
+description = "Statically defined lists which may contain mixed-typed data and may be iterated (yielding &dyn Trait refs)"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
